@@ -93,10 +93,12 @@ nav ul li a:hover {
     list-style-type: none;
     flex-wrap: wrap;
     margin-top: 20px;
-    align-items:center
+    align-items:center;
+    
 } 
 
 .linkrestaurants ul li {
     color: white;
     background-color: orange;
+    padding: 20px;
 }
