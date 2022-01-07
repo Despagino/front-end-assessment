@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Josefin Sans', sans-serif
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://img.search.brave.com/2RsSPluEXT7ckGRhwgt0rijMM83QS6LEi-BNPDN6OKk/fit/1200/1200/ce/1/aHR0cHM6Ly8zMWll/MGFtbHczNTNpdGE4/bjF0M3Q2djEtd3Bl/bmdpbmUubmV0ZG5h/LXNzbC5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTgvMTIv/ZHJhbWEtd2FsbC5q/cGc");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logo {
+    color:rgb(218, 218, 218);
+    font-size: 30px;
+}
+
+span {
+    color: black;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+nav ul li a:hover {
+    color:rgb(159, 159, 159)
+}
+
+.button {
+    border: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+    background-color: sienna;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button:hover {
+    transform:scale(1.05);
+    cursor:pointer;
+}
+
+
+.container2 {
+    margin-top: 50px;
+    display:flex;
+    width: 100vw;
+    height: 70vh;
+    justify-content: space-around;
+}
+
+.information {
+    width: 30vw;
+    text-align: center;
+    color: rgb(189, 189, 189);
+    border: 5px dotted;
+    border-color: black black rgb(142, 136, 125);
+    padding-top: 15px;
+}
+
+.goal {
+    text-align: center;
+}
+
+.body {
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+.jsbuttons {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.buttonsToClick {
+    color: rgb(191, 130, 56);
+    padding: 3px;
+    
+}
+
+
+
+
+
+
+

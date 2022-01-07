@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Josefin Sans', sans-serif
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://img.search.brave.com/kOBHRt_siM8-DowwYfKav7A6vVTgoOM632rXaoGMpaY/fit/1200/1200/ce/1/aHR0cHM6Ly93d3cu/dHJpcHNhdnZ5LmNv/bS90aG1iL25WN2RN/LVd0N1lTTUJHeVlN/OGtEUTdQVFZOUT0v/MjQwMHgxNjAwL2Zp/bHRlcnM6ZmlsbChh/dXRvLDEpLzIwMTkw/ODI1X0JyYWtlVGhy/b3VnaE1lZGlhX0Ex/ME84MjI2LWQ5NWFl/ZDRjODJlNDQ3ZDM5/YTMwYTgzZDdhYmNl/YmUxLmpwZw");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logo {
+    color:rgb(218, 218, 218);
+    font-size: 30px;
+}
+
+span {
+    color: black;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+nav ul li a:hover {
+    color:rgb(159, 159, 159)
+}
+
+.button {
+    border: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+    background-color: sienna;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button:hover {
+    transform:scale(1.05);
+    cursor:pointer;
+}
+
+.container2 {
+    height: 20vh;
+    width: 100vw;
+    padding-top:27px;
+    text-align: center;
+}
+
+.container2 p {
+    color: white;
+}
+
+.container3 {
+    height: 73.1vh;
+    width: 100vw;
+    background-color: black;
+    text-align: center;
+}
+
+
+.container3 h1 {
+    color: orange;
+    background-color: black;
+    padding: 20px;    
+}
+
+.linkrestaurants ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items:center
+} 
+
+.linkrestaurants ul li {
+    color: white;
+    background-color: orange;
+}
